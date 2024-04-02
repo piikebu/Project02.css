@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Frijole&family=Hubballi&display=swap');
+
+body{
+    background-image: url('../img/bg.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Hubballi;
+}
+
+h1{
+    font-family: Fredoka;
+}
+
+header {
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.aboutme {
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.aboutme:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gallery {
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.gallery:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blog {
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.blog a{
+    color: black;
+}
+
+.blog:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
